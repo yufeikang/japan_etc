@@ -3,7 +3,7 @@
 
 ![ETC](https://www.etc-meisai.jp/img/common/logo.png)
 
-> This is a tool to download the ETC record from the website of Japan ETC[etc-meisai.jp](https://www.etc-meisai.jp/index.html). You can use it to download the ETC record automatically. before you use it, you should register an account on the website and login. Then you can use this tool to download the ETC record.
+> This is a tool to download the ETC record from the website of Japan ETC [etc-meisai.jp](https://www.etc-meisai.jp/index.html). You can use it to download the ETC record automatically. before you use it, you should register an account on the website and login. Then you can use this tool to download the ETC record.
 
 ## 1. Install
 
@@ -12,12 +12,12 @@ pdm install
 ```
 
 ## 2. Usage
->
-> You can modify the .env file from .env.example. The fist time you can set env FETCH_ALL=true. After that you can set it to false.
 
 ```bash
 pdm run etc
 ```
+
+if need Telegram notification, you can set the environment variable `TG_BOT_TOKEN` and `TG_CHAT_ID`.
 
 ## 3. Crontab schedule
 

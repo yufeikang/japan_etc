@@ -3,7 +3,7 @@
 
 ![ETC](https://www.etc-meisai.jp/img/common/logo.png)
 
-> This is a tool to download the ETC use record from the website of Japan ETC. [etc-log.com](https://www.etc-meisai.jp/index.html)
+> This is a tool to download the ETC use record from the website of Japan ETC. [etc-meisai.jp](https://www.etc-meisai.jp/index.html)
 
 ## 1. Install
 

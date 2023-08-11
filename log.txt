@@ -1,0 +1,451 @@
+/bin/sh: pdm: command not found
+run: pdm: command not found
+Found 50 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-07 株式取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-09-08 16:05:03
+Found 51 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-08 株式取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-09-09 16:05:02
+Found 51 items
+Done
+=== SBI PDF ===
+Run at 2022-09-10 16:05:02
+Found 51 items
+Done
+=== SBI PDF ===
+Run at 2022-09-11 16:05:04
+Found 51 items
+Done
+=== SBI PDF ===
+Run at 2022-09-12 16:05:02
+Found 51 items
+Done
+=== SBI PDF ===
+Run at 2022-09-13 16:05:02
+Found 51 items
+Done
+=== SBI PDF ===
+Run at 2022-09-14 16:05:03
+Found 51 items
+Done
+=== SBI PDF ===
+Run at 2022-09-15 16:05:02
+Found 52 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-15 外国株式等取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-09-16 16:05:04
+Found 52 items
+Done
+=== SBI PDF ===
+Run at 2022-09-17 16:05:02
+Found 52 items
+Done
+=== SBI PDF ===
+Run at 2022-09-20 16:05:03
+Found 52 items
+Done
+=== SBI PDF ===
+Run at 2022-09-21 16:05:02
+Found 52 items
+Done
+=== SBI PDF ===
+Run at 2022-09-22 16:05:02
+Found 52 items
+Done
+=== SBI PDF ===
+Run at 2022-09-23 16:05:02
+Found 52 items
+Done
+=== SBI PDF ===
+Run at 2022-09-24 16:05:02
+Found 52 items
+Done
+=== SBI PDF ===
+Run at 2022-09-25 16:05:02
+Found 52 items
+Done
+=== SBI PDF ===
+Run at 2022-09-26 16:05:02
+Found 54 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-26 株式取引報告書.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-26 譲渡益税徴収・還付のお知らせ.pdf
+Done
+=== SBI PDF ===
+Run at 2022-09-27 16:05:02
+Found 55 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-27 株式取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-09-28 16:05:04
+Found 55 items
+Done
+=== SBI PDF ===
+Run at 2022-09-29 16:05:03
+Found 57 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-29 株式取引報告書.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-29 外国株式等取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-09-30 16:05:02
+Found 59 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-30 株式取引報告書.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202209/2022-09-30 譲渡益税徴収・還付のお知らせ.pdf
+Done
+=== SBI PDF ===
+Run at 2022-10-01 16:05:05
+Traceback (most recent call last):
+  File "/Users/kang/fine/spider/sbi_pdf/sbi.py", line 30, in <module>
+    page.goto('https://www.sbisec.co.jp/ETGate')
+  File "/usr/local/lib/python3.9/site-packages/playwright/sync_api/_generated.py", line 7434, in goto
+    self._sync(
+  File "/usr/local/lib/python3.9/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+  File "/usr/local/lib/python3.9/site-packages/playwright/_impl/_page.py", line 496, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/usr/local/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 136, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/usr/local/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "/usr/local/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 387, in wrap_api_call
+    return await cb()
+  File "/usr/local/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.sbisec.co.jp/ETGate", waiting until "load"
+============================================================
+=== SBI PDF ===
+Run at 2022-10-03 16:05:04
+Found 60 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-03 外貨建商品取引残高報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-10-04 16:05:02
+Found 60 items
+Done
+=== SBI PDF ===
+Run at 2022-10-05 16:05:05
+Found 60 items
+Done
+=== SBI PDF ===
+Run at 2022-10-06 16:05:03
+Found 60 items
+Done
+=== SBI PDF ===
+Run at 2022-10-07 16:05:12
+Found 62 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-07 譲渡益税徴収・還付のお知らせ.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-07 株式取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-10-08 16:05:02
+Found 62 items
+Done
+=== SBI PDF ===
+Run at 2022-10-09 16:05:03
+Found 62 items
+Done
+=== SBI PDF ===
+Run at 2022-10-11 16:05:04
+Found 62 items
+Done
+=== SBI PDF ===
+Run at 2022-10-12 16:05:03
+Found 62 items
+Done
+=== SBI PDF ===
+Run at 2022-10-13 16:05:05
+Found 63 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-13 取引残高報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-10-14 16:05:03
+Found 65 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-14 株式取引報告書.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-14 譲渡益税徴収・還付のお知らせ.pdf
+Done
+=== SBI PDF ===
+Run at 2022-10-15 16:05:20
+Found 65 items
+Done
+=== SBI PDF ===
+Run at 2022-10-16 16:05:03
+Found 65 items
+Done
+=== SBI PDF ===
+Run at 2022-10-17 16:05:02
+Found 67 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-17 譲渡益税徴収・還付のお知らせ.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-17 株式取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-10-19 16:05:03
+Found 67 items
+Done
+=== SBI PDF ===
+Run at 2022-10-20 16:05:02
+Found 67 items
+Done
+=== SBI PDF ===
+Run at 2022-10-21 16:05:02
+Found 67 items
+Done
+=== SBI PDF ===
+Run at 2022-10-22 16:05:02
+Found 67 items
+Done
+=== SBI PDF ===
+Run at 2022-10-23 16:05:02
+Found 67 items
+Done
+=== SBI PDF ===
+Run at 2022-10-24 16:05:01
+Found 67 items
+Done
+=== SBI PDF ===
+Run at 2022-10-25 16:05:04
+Found 67 items
+Done
+=== SBI PDF ===
+Run at 2022-10-26 16:05:05
+Found 70 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-26 譲渡益税徴収・還付のお知らせ.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-26 株式取引報告書.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202210/2022-10-26 外国株式等取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-10-27 16:05:04
+Found 70 items
+Done
+=== SBI PDF ===
+Run at 2022-10-28 16:05:05
+Found 71 items
+Done
+=== SBI PDF ===
+Run at 2022-10-31 16:05:02
+Found 71 items
+Done
+=== SBI PDF ===
+Run at 2022-11-01 16:05:03
+Found 71 items
+Done
+=== SBI PDF ===
+Run at 2022-11-02 16:05:11
+Found 71 items
+Done
+=== SBI PDF ===
+Run at 2022-11-03 16:05:03
+Found 71 items
+Done
+=== SBI PDF ===
+Run at 2022-11-04 16:05:02
+Found 72 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202211/2022-11-04 外国株式等配当金等のご案内（兼）支払通知.pdf
+Done
+=== SBI PDF ===
+Run at 2022-11-05 16:05:03
+Found 72 items
+Done
+=== SBI PDF ===
+Run at 2022-11-06 16:05:03
+Found 72 items
+Done
+=== SBI PDF ===
+Run at 2022-11-07 16:07:33
+Found 74 items
+Done
+=== SBI PDF ===
+Run at 2022-11-08 16:05:06
+Found 74 items
+Done
+=== SBI PDF ===
+Run at 2022-11-09 16:05:02
+Found 74 items
+Done
+=== SBI PDF ===
+Run at 2022-11-10 16:05:03
+Found 74 items
+Done
+=== SBI PDF ===
+Run at 2022-11-11 16:05:03
+Found 74 items
+Done
+=== SBI PDF ===
+Run at 2022-11-12 16:05:03
+Found 74 items
+Done
+=== SBI PDF ===
+Run at 2022-11-13 16:05:02
+Found 74 items
+Done
+=== SBI PDF ===
+Run at 2022-11-14 16:05:05
+Found 75 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202211/2022-11-14 外国株式等配当金等のご案内（兼）支払通知.pdf
+Done
+=== SBI PDF ===
+Run at 2022-11-15 16:05:04
+Found 75 items
+Done
+=== SBI PDF ===
+Run at 2022-11-16 16:05:01
+Found 75 items
+Done
+=== SBI PDF ===
+Run at 2022-11-17 16:05:02
+Found 75 items
+Done
+=== SBI PDF ===
+Run at 2022-11-18 16:05:02
+Found 75 items
+Done
+=== SBI PDF ===
+Run at 2022-11-19 16:05:03
+Found 75 items
+Done
+=== SBI PDF ===
+Run at 2022-11-21 16:05:04
+Found 75 items
+Done
+=== SBI PDF ===
+Run at 2022-11-22 16:05:04
+Found 76 items
+Done
+=== SBI PDF ===
+Run at 2022-11-23 16:05:05
+Found 76 items
+Done
+=== SBI PDF ===
+Run at 2022-11-24 16:05:05
+Found 76 items
+Done
+=== SBI PDF ===
+Run at 2022-11-25 16:05:03
+Found 76 items
+Done
+=== SBI PDF ===
+Run at 2022-11-28 16:05:04
+Found 77 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202211/2022-11-28 株式取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-11-29 16:05:05
+Found 77 items
+Done
+=== SBI PDF ===
+Run at 2022-11-30 16:05:02
+Found 78 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202211/2022-11-30 株式等利益剰余金配当金のお知らせ.pdf
+Done
+=== SBI PDF ===
+Run at 2022-12-01 16:05:02
+Found 78 items
+Done
+=== SBI PDF ===
+Run at 2022-12-02 16:05:02
+Found 78 items
+Done
+=== SBI PDF ===
+Run at 2022-12-03 16:05:03
+Found 78 items
+Done
+=== SBI PDF ===
+Run at 2022-12-04 16:05:03
+Found 78 items
+Done
+=== SBI PDF ===
+Run at 2022-12-05 16:05:02
+Found 80 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202212/2022-12-05 株式取引報告書.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202212/2022-12-05 外国株式等配当金等のご案内（兼）支払通知.pdf
+Done
+=== SBI PDF ===
+Run at 2022-12-06 16:05:03
+Found 80 items
+Done
+=== SBI PDF ===
+Run at 2022-12-07 16:05:03
+Found 80 items
+Done
+=== SBI PDF ===
+Run at 2022-12-08 16:05:04
+Found 80 items
+Done
+=== SBI PDF ===
+Run at 2022-12-09 16:05:03
+Found 80 items
+Done
+=== SBI PDF ===
+Run at 2022-12-10 16:05:03
+Found 80 items
+Done
+=== SBI PDF ===
+Run at 2022-12-11 16:05:02
+Found 80 items
+Done
+=== SBI PDF ===
+Run at 2022-12-12 16:05:04
+Found 80 items
+Done
+=== SBI PDF ===
+Run at 2022-12-13 16:05:02
+Found 82 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202212/2022-12-13 譲渡益税徴収・還付のお知らせ.pdf
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202212/2022-12-13 外国株式等取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-12-14 16:05:04
+Found 82 items
+Done
+=== SBI PDF ===
+Run at 2022-12-15 16:05:04
+Found 82 items
+Done
+=== SBI PDF ===
+Run at 2022-12-16 16:05:04
+Found 82 items
+Done
+=== SBI PDF ===
+Run at 2022-12-17 16:05:04
+Found 82 items
+Done
+=== SBI PDF ===
+Run at 2022-12-18 16:05:02
+Found 82 items
+Done
+=== SBI PDF ===
+Run at 2022-12-19 16:05:04
+Found 82 items
+Done
+=== SBI PDF ===
+Run at 2022-12-20 16:05:04
+Found 83 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202212/2022-12-20 外国株式等取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-12-21 16:05:04
+Found 84 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202212/2022-12-21 株式取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2023-01-07 16:05:10
+Found 85 items
+save /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Documents/SBI PDF/202212/2022-12-22 株式取引報告書.pdf
+Done
+=== SBI PDF ===
+Run at 2022-12-23 16:05:02
+Found 85 items
+Done
+=== SBI PDF ===
+Run at 2022-12-26 16:05:02
+Found 85 items
+Done
+=== SBI PDF ===
+Run at 2022-12-28 16:05:06
+Found 85 items
+Done

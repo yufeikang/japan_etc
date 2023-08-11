@@ -1,0 +1,30 @@
+[project]
+name = "Japan ETC record downloader"
+version = "v0.1.0"
+description = ""
+authors = [
+    {name = "Yufei Kang", email = "kou.uhi.x@gmail.com"},
+]
+dependencies = [
+    "pytest-playwright>=0.3.0",
+    "python-dotenv>=0.20.0",
+    "requests>=2.31.0",
+    "tinydb>=4.8.0",
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=22.6.0",
+]
+
+
+[tool.pdm.scripts]
+etc = "python cli.py"
+post_install = "pdm run playwright install chromium"

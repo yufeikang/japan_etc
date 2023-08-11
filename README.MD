@@ -1,9 +1,9 @@
 
-# Japan ETC use record downloader
+# Japan ETC record downloader
 
 ![ETC](https://www.etc-meisai.jp/img/common/logo.png)
 
-> This is a tool to download the ETC use record from the website of Japan ETC. [etc-meisai.jp](https://www.etc-meisai.jp/index.html)
+> This is a tool to download the ETC record from the website of Japan ETC[etc-meisai.jp](https://www.etc-meisai.jp/index.html). You can use it to download the ETC record automatically. before you use it, you should register an account on the website and login. Then you can use this tool to download the ETC record.
 
 ## 1. Install
 

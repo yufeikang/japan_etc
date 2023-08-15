@@ -7,12 +7,12 @@ import csv
 from .db import insert
 from .utils import send_telegram
 
-import dotenv
+
 from playwright.sync_api import sync_playwright
 
 logger = logging.getLogger(__name__)
 
-dotenv.load_dotenv()
+
 # enable debug logging
 logging.basicConfig(level=logging.DEBUG)
 

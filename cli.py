@@ -1,3 +1,7 @@
+import dotenv
+
+dotenv.load_dotenv()
+
 from etc.etc import main
 from etc.db import close as close_db
 

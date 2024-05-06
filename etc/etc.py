@@ -1,4 +1,4 @@
-#%%
+# %%
 
 import os
 import time
@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 
 # enable debug logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 
 HEADLESS = os.environ.get("HEADLESS", "true").lower() == "true"
 

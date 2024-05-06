@@ -44,6 +44,7 @@ class CsvStorage(Storage):
 
 db = TinyDB(CSV_FILE, storage=CsvStorage)
 
+
 # unique key is 利用年月日（自）+ 時分（自）+ 利用年月日（至）+ 時分（至）
 def get_unique_key(row):
     payload = ",".join(
@@ -58,11 +59,18 @@ def get_unique_key(row):
 
 
 def insert(row) -> bool:
+    """
+    result: True if insert new row, False if update exist row
+    """
     # check if exist
     row["unique_key"] = get_unique_key(row)
     Record = Query()
-    if db.search(Record["unique_key"] == row["unique_key"]):
-        # exist
+    result = db.search(Record["unique_key"] == row["unique_key"])
+    if result:
+        exist_row = result[0]
+        if exist_row != row:
+            logger.info(f"update row: {row}")
+            db.update(row, Record["unique_key"] == row["unique_key"])
         return False
     db.insert(row)
     return True
